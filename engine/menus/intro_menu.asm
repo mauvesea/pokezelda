@@ -1056,7 +1056,11 @@ RunTitleScreen:
 
 ScrollTitleScreenClouds:
 	ldh a, [hVBlankCounter]
+<<<<<<< Updated upstream
 	and $1
+=======
+	and $0
+>>>>>>> Stashed changes
 	ret nz
 	ld hl, wLYOverrides + $5f
 	ld a, [hl]
